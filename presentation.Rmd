@@ -1,6 +1,10 @@
 ---
 title: "Presentation of the results"
-output: html_notebook
+output:
+  pdf_document: default
+  html_notebook: default
+  
+always_allow_html: true
 ---
 
 This is the presentation of the partial results of the study so far.

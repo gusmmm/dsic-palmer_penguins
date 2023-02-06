@@ -1,3 +1,0 @@
-"0","# create a df with the real values, the residuals and the prediction"
-"0","model_df <- tar_read(model_bm_fl_df)"
-"0","print(as_tibble(model_df))"
