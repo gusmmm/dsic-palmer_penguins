@@ -1,0 +1,44 @@
+"0","penguins_df <- tar_read(penguins_df)"
+"0","# take a look at the data"
+"0","glimpse(penguins_df)"
+"1","Rows: 344"
+"1",""
+"1","
+"
+"1","Columns: 8"
+"1",""
+"1","
+"
+"1","$ species           [3m[38;5;246m<fct>[39m[23m Adelie, Adelie, Adelie, Adelie, Adelie, Adelie, Adelie, Adelie, Adelie, Adelie, Adelie, Adelie, Adelie, Adelie, Adelie, Adelie, Ade…
+$ island            [3m[38;5;246m<fct>[39m[23m Torgersen, Torgersen, Torgersen, Torgersen, Torgersen, Torgersen, Torgersen, Torgersen, Torgersen, Torgersen, Torgersen, Torgersen,…
+$ bill_length_mm    [3m[38;5;246m<dbl>[39m[23m 39.1, 39.5, 40.3, NA, 36.7, 39.3, 38.9, 39.2, 34.1, 42.0, 37.8, 37.8, 41.1, 38.6, 34.6, 36.6, 38.7, 42.5, 34.4, 46.0, 37.8, 37.7, 3…
+$ bill_depth_mm     [3m[38;5;246m<dbl>[39m[23m 18.7, 17.4, 18.0, NA, 19.3, 20.6, 17.8, 19.6, 18.1, 20.2, 17.1, 17.3, 17.6, 21.2, 21.1, 17.8, 19.0, 20.7, 18.4, 21.5, 18.3, 18.7, 1…
+$ flipper_length_mm [3m[38;5;246m<int>[39m[23m 181, 186, 195, NA, 193, 190, 181, 195, 193, 190, 186, 180, 182, 191, 198, 185, 195, 197, 184, 194, 174, 180, 189, 185, 180, 187, 18…
+$ body_mass_g       [3m[38;5;246m<int>[39m[23m 3750, 3800, 3250, NA, 3450, 3650, 3625, 4675, 3475, 4250, 3300, 3700, 3200, 3800, 4400, 3700, 3450, 4500, 3325, 4200, 3400, 3600, 3…
+$ sex               [3m[38;5;246m<fct>[39m[23m male, female, female, NA, female, male, female, male, NA, NA, NA, NA, female, male, male, female, female, male, female, male, femal…
+$ year              [3m[38;5;246m<int>[39m[23m 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007,…"
+"1",""
+"1","
+"
+"0","# remove all the cases with NAs "
+"0","f_penguins_df <- tar_read(fpenguins_df)"
+"0","glimpse(f_penguins_df)"
+"1","Rows: 333"
+"1",""
+"1","
+"
+"1","Columns: 8"
+"1",""
+"1","
+"
+"1","$ species           [3m[38;5;246m<fct>[39m[23m Adelie, Adelie, Adelie, Adelie, Adelie, Adelie, Adelie, Adelie, Adelie, Adelie, Adelie, Adelie, Adelie, Adelie, Adelie, Adelie, Ade…
+$ island            [3m[38;5;246m<fct>[39m[23m Torgersen, Torgersen, Torgersen, Torgersen, Torgersen, Torgersen, Torgersen, Torgersen, Torgersen, Torgersen, Torgersen, Torgersen,…
+$ bill_length_mm    [3m[38;5;246m<dbl>[39m[23m 39.1, 39.5, 40.3, 36.7, 39.3, 38.9, 39.2, 41.1, 38.6, 34.6, 36.6, 38.7, 42.5, 34.4, 46.0, 37.8, 37.7, 35.9, 38.2, 38.8, 35.3, 40.6,…
+$ bill_depth_mm     [3m[38;5;246m<dbl>[39m[23m 18.7, 17.4, 18.0, 19.3, 20.6, 17.8, 19.6, 17.6, 21.2, 21.1, 17.8, 19.0, 20.7, 18.4, 21.5, 18.3, 18.7, 19.2, 18.1, 17.2, 18.9, 18.6,…
+$ flipper_length_mm [3m[38;5;246m<int>[39m[23m 181, 186, 195, 193, 190, 181, 195, 182, 191, 198, 185, 195, 197, 184, 194, 174, 180, 189, 185, 180, 187, 183, 187, 172, 180, 178, 1…
+$ body_mass_g       [3m[38;5;246m<int>[39m[23m 3750, 3800, 3250, 3450, 3650, 3625, 4675, 3200, 3800, 4400, 3700, 3450, 4500, 3325, 4200, 3400, 3600, 3800, 3950, 3800, 3800, 3550,…
+$ sex               [3m[38;5;246m<fct>[39m[23m male, female, female, female, male, female, male, female, male, male, female, female, male, female, male, female, male, female, mal…
+$ year              [3m[38;5;246m<int>[39m[23m 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007,…"
+"1",""
+"1","
+"

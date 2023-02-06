@@ -1,0 +1,29 @@
+{
+    "id": "593AEF02",
+    "path": "~/workspace/dsic_simple_project/presentation.Rmd",
+    "project_path": "presentation.Rmd",
+    "type": "r_markdown",
+    "hash": "4283802147",
+    "contents": "",
+    "dirty": false,
+    "created": 1675673452233.0,
+    "source_on_save": false,
+    "relative_order": 3,
+    "properties": {
+        "tempName": "Untitled1",
+        "chunk_output_type": "inline",
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "70,36",
+        "scrollLine": "67",
+        "last_setup_crc32": "d77e5b24bb338d19"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1675691391,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1675691391210,
+    "read_only": false,
+    "read_only_alternatives": []
+}

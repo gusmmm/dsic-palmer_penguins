@@ -1,0 +1,27 @@
+{
+    "id": "205E6969",
+    "path": "~/workspace/dsic_simple_project/_targets.R",
+    "project_path": "_targets.R",
+    "type": "r_source",
+    "hash": "145671874",
+    "contents": "",
+    "dirty": false,
+    "created": 1675689577377.0,
+    "source_on_save": false,
+    "relative_order": 3,
+    "properties": {
+        "tempName": "Untitled1",
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "34,2",
+        "scrollLine": "4"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1675691315,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1675691315987,
+    "read_only": false,
+    "read_only_alternatives": []
+}

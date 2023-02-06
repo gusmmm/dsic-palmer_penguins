@@ -1,0 +1,76 @@
+---
+title: "Presentation of the results"
+output: html_notebook
+---
+
+This is the presentation of the partial results of the study so far.
+It is a Rmarkdown document.
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+First let's setup the code.
+```{r, include=FALSE}
+library("here")
+source(here("code","packages.R"))
+source(here("code","functions.R"))
+```
+
+```{r environment_set_up, include=FALSE}
+# Préparation de l'environnement
+tar_visnetwork(targets_only = TRUE)
+```
+
+Start the targets.
+
+```{r include=FALSE}
+tar_make()
+```
+
+# The Palmer Penguins data
+Show me a glimpse of the Palmer Penguins dataframe
+```{r}
+penguins_df <- tar_read(penguins_df)
+# take a look at the data
+glimpse(penguins_df)
+# remove all the cases with NAs 
+f_penguins_df <- tar_read(fpenguins_df)
+glimpse(f_penguins_df)
+```
+## Show me the species in a plotbar
+```{r}
+# do a barplot with the species
+tar_read(species_bar_plot)
+```
+
+## Correlation matrix
+```{r}
+# do a correlation matrix
+tar_read(correlation_mx)
+```
+
+## Species VS size
+```{r}
+# do a scatter plot species vs size
+# add a linear model line
+tar_read(species_size_cp) + geom_smooth(method = "lm")
+# as one can, see there's a positive linear correlation between the body mass and the flipper length
+```
+
+## This sounds interesting, let's create a linear model to predict body mass from the specimen's flipper length 
+```{r}
+# build the model to predict the body mass from the flipper length
+model <- tar_read(model_bm_fl)
+model
+summary(model)
+```
+## Now let's create a dataframe with the actual values and the predictions from our model
+```{r}
+# create a df with the real values, the residuals and the prediction
+model_df <- tar_read(model_bm_fl_df)
+print(as_tibble(model_df))
+```
+
+## Conclusion
+This ends the short analysis and presentation of the Palmer Penguins dataframe.
