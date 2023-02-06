@@ -1,5 +1,3 @@
 "0","library(""here"")"
-"2","here() starts at /home/rstudio/workspace/dsic_simple_project
-"
 "0","source(here(""code"",""packages.R""))"
 "0","source(here(""code"",""functions.R""))"
