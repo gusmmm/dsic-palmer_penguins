@@ -20,7 +20,7 @@ do_species_bar_plot <- function(df){
 }
 
 do_cm <- function(df){
-  df %>%
+    df %>%
     select_if(is.numeric) %>%
     cor() 
 }

@@ -23,8 +23,8 @@ source(here("code","functions.R"))
 Start your targets.
 
 ```{r}
-tar_visnetwork(targets_only = TRUE)
 tar_make()
+tar_visnetwork(targets_only = TRUE)
 ```
 
 ## Palmer Penguins dataframe

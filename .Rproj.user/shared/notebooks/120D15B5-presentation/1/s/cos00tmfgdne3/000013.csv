@@ -1,3 +1,0 @@
-"0","# do a scatter plot species vs size"
-"0","# add a linear model line"
-"0","tar_read(species_size_cp) + geom_smooth(method = ""lm"")"
